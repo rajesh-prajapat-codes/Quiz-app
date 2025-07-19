@@ -24,5 +24,5 @@ You can try the live version of this project here:
 
 ## 📸 Screenshot
 
-> *(Optional: Add a screenshot here by uploading image and using this format)*  
-> (Screenshot 2025-07-19 090155.png)
+<img width="1128" height="762" alt="Screenshot 2025-07-19 090155" src="https://github.com/user-attachments/assets/a0737236-afb6-4511-9e00-df480557355d" />
+
