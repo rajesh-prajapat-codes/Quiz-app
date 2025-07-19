@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, rgb(89, 196, 232), rgb(195, 198, 198));
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#box {
+  width: 90%;
+  max-width: 600px;
+  background-color: aliceblue;
+  padding: 25px 30px 45px 25px;
+  border-radius: 8px;
+  position: relative;
+}
+
+label{
+  font-size: 20px;
+}
+
+.row {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+ 
+  margin-top: 30px;
+}
+
+.btn-group button {
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 45%;
+}
+
+
+#prev {
+  background-color: #f44336;
+}
+
+#prev:hover {
+  background-color: #d32f2f;
+}
+
+
+#next {
+  background-color: #ffeb3b;
+  color: black;
+}
+
+#next:hover {
+  background-color: #fdd835;
+}
+
+
+#submit {
+  background-color: #4caf50;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  margin-top: 20px;
+  display: block;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
+
+
+#progress-container {
+  width: 100%;
+  background: #ddd;
+  height: 8px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+#progress {
+    width: 10%;
+  height:8px;
+  background: #4caf50;
+  width: 0%;
+  border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #fff3cd; 
+    color: #333;
+    cursor: not-allowed;
+    border: 1px solid #ffeeba;
+}
+
+@media (max-width: 275px) {
+  #prev {
+    font-size: 15px;
+  }
+ 
+
+}
+
+@media (max-width: 300) {
+  #box h2{
+    font-size: 10px;
+  }
+  
+}
+
+
+
